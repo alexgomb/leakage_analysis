@@ -8,7 +8,7 @@ Created on Tue Oct 10 15:02:03 2023
 import pandas as pd
 import matplotlib.pyplot as plt
 #import the file as a data frame and use dropna()
-data = pd.read_excel('H:/Mi unidad/Otros/Proyecto New Horizon/Bioinf/Python/Python freelancing/Leakage data.xlsx').dropna()
+data = pd.read_excel('Leakage data.xlsx').dropna()
 
 #first we select the data we need
 data['Rspot average'] = data.iloc[0:, 6:10].mean(axis = 1)
